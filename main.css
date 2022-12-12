@@ -1,0 +1,491 @@
+:root {
+    --background-nav: #000000;
+    --background-general: #1f1f1f;
+    --font-color: #b9b9b9;
+    --font-color-two: #FFFFFF;
+
+    --footer-color: #181818;
+
+    --boxes-color: #323232;
+    
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--background-general);
+    color: var(--font-color);
+    /*min-height: 100vh; /*Prueba*/
+    /*position: relative; Prueba*/
+}
+
+.mayor {
+    display: flex;
+}
+
+.mayor .navigation {
+    position: fixed;
+    width: 13.5%;
+    height: 100%;
+    background-color: var(--background-nav);
+    padding-top: 22px;
+    padding-left: 20px;
+    /*flex-direction: column;
+    display: flex;*/
+}
+
+
+/*First word*/
+.mayor .navigation .first-word i {
+    color: var(--font-color-two);
+    font-size: 40px;
+    cursor: pointer;
+}
+.mayor .navigation .first-word {
+    color: var(--font-color-two);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+/*Primeros tres íconos*/
+.mayor .navigation .first-navigation {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 25px; /*Para sepaparlos*/
+    justify-content: space-between;
+    display: flex;
+    cursor: pointer;
+}
+
+
+.mayor .navigation .first-navigation ul li {
+    padding-top: 15px;
+}
+
+.mayor .navigation .first-navigation ul li i:hover {
+    color: var(--font-color-two);
+}
+
+.mayor .navigation .first-navigation .icon-three:hover {
+    color: var(--font-color-two);
+}
+
+.mayor .navigation .first-navigation .icon-two:hover {
+    color: var(--font-color-two);
+}
+
+.mayor .navigation .first-navigation .icon-one i, .icon-two i, .icon-three i {
+    font-size: 25px;
+    padding-right: 15px;
+}
+
+.mayor .navigation .first-navigation .icon-one i {
+    color: var(--font-color-two);
+}
+
+.mayor .navigation .first-navigation .icon-one {
+    color: var(--font-color-two);
+}
+
+.mayor .navigation .first-navigation .icon-two i, .icon-three i {
+    color: var(--font-color);
+}
+
+
+/*Segundos íconos*/
+
+.mayor .navigation .second-navigation {
+    font-size: 15px;
+    justify-content: space-between;
+    display: flex;
+    padding-bottom: 33px;
+    cursor: pointer;
+}
+
+.mayor .navigation .second-navigation .icon-one_one i{
+    font-size: 25px;
+    padding-right: 15px;
+}
+
+.mayor .navigation .second-navigation .icon-two_two i {
+    font-size: 25px;
+    padding-right: 11px;
+}
+
+.mayor .navigation .second-navigation .icon-three_three i {
+    font-size: 25px;
+    padding-right: 16px;
+}
+
+.mayor .navigation .second-navigation ul li {
+    padding-top: 15px;
+}
+
+.mayor .navigation .second-navigation .icon-one_one i, .icon-two_two i, .icon-three_three i {
+    color: var(--font-color);
+}
+
+.mayor .navigation .second-navigation .icon-three_three {
+    border-bottom: 1px solid #b9b9b9;
+    padding-bottom: 20px;
+}
+
+
+/*Terceros íconos*/
+
+.mayor .navigation .third-nagivation {
+   
+    scrollbar-base-color: var(--font-color);
+    scrollbar-face-color: var(--font-color);
+    scrollbar-highlight-color: var(--font-color);
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: default;
+}
+
+.mayor .navigation .third-nagivation ul li {
+    padding-bottom: 16px;
+}
+
+.mayor .navigation .third-nagivation i{
+    font-size: 25px;
+    color: var(--font-color);
+    padding-right: 15px;
+}
+
+
+
+
+/*Footer part one*/
+
+footer {
+    position: fixed !important;
+}
+.one {
+    position: absolute;
+    background-color: var(--footer-color);
+    height: 93px;
+    margin-top: 100%;
+    bottom: 0;
+    width: 100%;
+}
+
+img {
+    height: 55px;
+    width: 55px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.mayor .one .text-one {
+    color: var(--font-color-two);
+    margin-left: 90px;
+    margin-top: -52px;
+    cursor: pointer;
+}
+
+.mayor .one .footer .icon-footer {
+    padding-left: 223px;
+    font-size: 18px;
+    margin-top: -17px;
+}
+
+.mayor .one .footer .icon-footer-dos {
+    padding-left: 257px;
+    font-size: 18px;
+    margin-top: -20px;
+}
+
+.mayor .one .footer i {
+    color: var(--font-color);
+}
+
+.mayor .one .footer .text-two {
+    font-size: 12px;
+    margin-left: 90px;
+    cursor: pointer;
+}
+
+
+/*Footer part two*/
+
+
+.mayor .one .reproducir i {
+    color: var(--font-color);
+}
+
+.mayor .one .reproducir .aleatorio {
+    margin-top: -40px;
+    font-size: 18px;
+    margin-left: 863px;
+}
+
+.mayor .one .reproducir .back{
+    margin-top: -22px;
+    font-size: 20px;
+    margin-left: 907px;
+}
+
+.mayor .one .reproducir .pause{
+    margin-top: -30px;
+    font-size: 33px;
+    margin-left: 946px;
+}
+
+.mayor .one .reproducir .pause i{
+    color: #FFFFFF;
+}
+
+.mayor .one .reproducir .forward {
+    margin-top: -29px;
+    font-size: 20px;
+    margin-left: 1007px;
+}
+
+.mayor .one .reproducir .repeat {
+    margin-top: -22px;
+    font-size: 18px;
+    margin-left: 1044px;
+}
+
+.mayor .one .reproducir .line {
+    background-color: var(--font-color-two);
+    margin-left: 645px;
+    margin-top: 20px;
+    height: 3px;
+    width: 630px;
+    border-radius: 22%;
+}
+
+.mayor .one .reproducir .text-three {
+    margin-left: 615px;
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.mayor .one .reproducir .text-four {
+    margin-left: 1280px;
+    font-size: 12px;
+    margin-top: -14px;
+}
+
+/*Footer part three*/
+
+.mayor .one .right i{
+    color: var(--font-color);
+}
+
+.mayor .one .right .microphone {
+    margin-left: 1660px;
+    margin-top: -35px;
+}
+
+.mayor .one .right .bars {
+    margin-left: 1695px;
+    margin-top: -18px;
+    font-size: 17px;
+}
+
+.mayor .one .right .devices {
+    margin-left: 1730px;
+    margin-top: -20px;
+    font-size: 15px;
+}
+
+.mayor .one .right .sound {
+    margin-left: 1760px;
+    font-size: 13px;
+    margin-top: -16px;
+}
+
+.mayor .one .right .line-two {
+    background-color: var(--font-color-two);
+    height: 3px;
+    width: 90px;
+    margin-left: 1785px;
+    margin-top: -8px;
+    border-radius: 22%;
+}
+
+.mayor .one .right .screen {
+    margin-left: 1885px;
+    font-size: 15px;
+    margin-top: -17px;
+    
+}
+
+
+/*Center*/
+
+section {
+    color: #FFFFFF;
+    width: 100%;
+}
+
+/*Arrows*/
+.mayor .section-one ul {
+    display: flex;
+}
+
+.mayor .section-one ul li{
+    margin-left: 290px;
+    margin-top: 20px;
+}
+
+.mayor .section-one ul li i{
+    color: var(--boxes-color);
+    font-size: 28px;
+    background-color: var(--font-color-two);
+    border-radius: 50px;
+}
+
+.mayor .section-one .arrow-two {
+    margin-left: 20px;
+}
+
+/*Title*/
+h2 {
+    margin-left: 290px;
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+/*First boxes*/
+.mayor .section-one .part-one {
+    margin-left: 290px;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 18px;
+    font-size: 15px;
+    justify-content: space-between;
+    margin-right: 27px;
+}
+
+.mayor .section-one .part-one div {
+    display: flex;
+    height: 80px;
+    width: 522px;
+    background-color: var(--boxes-color);
+    border-radius: 10px;
+}
+
+.mayor .section-one .part-one img {
+    height: 100%;
+    width: 80px;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.mayor .section-one .part-one h3 {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+/*Second boxes*/
+
+.mayor .section-one .solito h2 {
+    margin-left: 290px;
+    margin-top: 30px;
+    font-size: 28px;
+}
+
+.mayor .section-one .part-two {
+    margin-left: 290px;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    background-color: var(--background-general);
+    justify-content: space-between;
+    margin-right: 32px;
+    font-size: 15px;
+}
+
+.mayor .section-one .part-two div {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--footer-color);
+    height: 280px;
+    width: 205px;
+    border-radius: 10px;
+}
+
+.mayor .section-one .part-two img{
+    display: flex;
+    margin: 15px;
+    width: 173px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.mayor .section-one .part-two h3 {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 4px;
+}
+
+.mayor .section-one .part-two p{
+    margin-left: 15px;
+    color: var(--font-color);
+    margin-top: 7px;
+    font-size: 13px;
+}
+
+/*Part Three*/
+
+.mayor .section-one .solito-two h2 {
+    margin-left: 290px;
+    font-size: 28px;
+}
+
+.mayor .section-one .part-three {
+    margin-left: 290px;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    background-color: var(--background-general);
+    justify-content: space-between;
+    margin-right: 32px;
+    font-size: 15px;
+}
+
+.mayor .section-one .part-three div {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--footer-color);
+    height: 280px;
+    width: 205px;
+    border-radius: 10px;
+}
+
+.mayor .section-one .part-three img{
+    border-radius: 10px;
+    display: flex;
+    margin: 15px;
+    width: 173px;
+    height: 180px;
+}
+
+.mayor .section-one .part-three h3 {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 4px;
+}
+
+.mayor .section-one .part-two p{
+    margin-left: 15px;
+    color: var(--font-color);
+    margin-top: 7px;
+    font-size: 13px;
+}
