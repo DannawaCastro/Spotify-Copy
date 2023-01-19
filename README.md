@@ -1,1 +1,1 @@
-# Spotify-Copy :) I'm open to receive critics to improve my code
+# Spotify-Copy :) I am open to receive criticism to improve my code.
